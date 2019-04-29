@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Profile</title>
+
+  <link rel="stylesheet" type="text/css" href="public/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <ul class="container">
+        <nav class="navbar nav-flex-icons">
+                <img src="assets/images/chatnotif.png" width="25" height="25" alt="">
+                <img src="assets/images/infonotif.svg" width="25" height="25" alt=""
+
+            <form class="search" action="/action_page.php" style="margin:auto;max-width:20px">
+                <input type="text" placeholder="find people, documents.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+               <h1 id="time"></h1> 
+               <script> 
+                var display=setInterval(function(){Time()},0); function Time()
+                {
+                var date=new Date(); var time=date.toLocaleTimeString();
+                document.getElementById("time").innerHTML=time;
+                }</script>
+        <img src="assets/images/stephendouglas.jpg" width="45" height="45" alt="">
+        <p style="font-weight:bold;">Stephen Douglas</p>
+        </nav>
+    </ul>
+
+<div class="container-fluid">
+    <div class="row-lg">
+        <h1>Stephen Douglas: Profile</h1>
+    </div>
+</div>
+
+    <br>
+    <br>
+<nav class="navbar fixed-top navbar-dark navbar-expand-md">
+  <a class="navbar-brand" href="#">
+        <img src="assets/images/stephendouglas.jpg" width="45" height="45" alt="">
+  </a>
+
+  <div class="collapse navbar-collapse flex-column" id="navbar">
+    <ul class="navbar-nav nav w-100">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#property-tab">Stephen Douglas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#units-tab">Files</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#tenancies-tab">Tasks</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#pdfs-tab">Calendar</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#contacts-tab">General</a>
+      </li>
+      <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#contacts-tab">Files</a>
+          </li>
+          <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#contacts-tab">Tasks</a>
+              </li>
+              <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#contacts-tab">Calendar</a>
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#contacts-tab">Conversations</a>
+                      </li>
+                      <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#contacts-tab">Photo</a>
+                          </li>
+    </ul>
+  </div>
+</nav>
+    
+
+
+
+
+
+
+
+
+
+    <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-8">
+                <div class="row">
+                  <div class="col-md-3">
+                        <h1 class="py-2 ml-lg-2 mx-3"><a href="#"><img src="assets/images/stephendouglas.jpg" height="160" width="160"></i></a></h1>
+                  </div>
+                  <div class="col-md-9">
+                    <p style="font-weight:bold;">Contact Information:</p>
+                    <p>Email:</p>
+                    <br>
+                    <p style="font-weight:bold;">General Information:</p>
+                    <p>Birthday:</p>
+                    <p>Department:</p>
+                    <p>Supervisor:</p>
+                    <p>Subordinates:</p>
+                    <br>
+                    <p style="font-weight:bold;">Additional Information:</p>
+                    <p>Groups:</p>                 
+                  </div>
+                </div>
+              </div>
+        
+              <div class="col-md-2">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h3 class="panel-title">Actions</h3>
+                  </div>
+                  <div class="panel-body">
+                        <button class="editbtn"> <i class="fa fa-pencil" aria-hidden="true"></i> Edit Profile</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+
+</body>
+
+</html>

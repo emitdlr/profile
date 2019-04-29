@@ -1,0 +1,66 @@
+@media all and (max-width: 100%) {
+  .container {
+    flex-wrap: wrap;
+  }
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    background-color: rgb(104, 104, 104);
+    padding: 0px 125px 0px 0px;
+ } 
+
+ .navbar-brand {
+   width: 100%;
+ }
+ 
+
+  .btn btn-light {
+    color: #212529;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+    border-radius: 50%;
+    border: 1px solid rgba(248, 249, 250, 0.75);     
+  }
+
+.row-lg {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(216, 224, 250);
+}
+
+input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 20%;
+    background: #f1f1f1;
+  }
+  
+
+  col-md-12 {
+    background-color: aquamarine;
+  }
+
+  p {
+    margin:-10px;
+    padding:-10px;
+  }
+
+.editbtn {
+  padding: 0;
+  border: none;
+  background: none;
+  background-color: whitesmoke;
+  }
+
+  .panel {
+  position: absolute;
+  width: 200px;
+  right: -200px;
+  }
